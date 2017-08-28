@@ -1,4 +1,6 @@
+gem 'minitest', '~> 5.8', '>= 5.8.4'
 require 'minitest/autorun'
+
 require 'minitest/reporters'
 require_relative '../lib/selection_sort'
 
@@ -26,5 +28,5 @@ describe "selection sort" do
       end
     end
   end
-  
+
 end
