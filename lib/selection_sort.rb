@@ -20,10 +20,11 @@ def selection_sort(array)
     index = find_smallest(array)
     puts "I'm in the selection sort method!"
     sorted_array << array.delete_at(index)
-    print array 
+    print array
     print sorted_array
   end
   return sorted_array
 end
 
-puts selection_sort([1, 10, 8, 2, 6, 3, 4, 5])
+array = [-5, 1000, 2, 3, -2, 10, 100, -500, 7, 101]
+puts selection_sort(array)[-1]

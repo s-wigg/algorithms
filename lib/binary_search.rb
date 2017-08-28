@@ -14,9 +14,5 @@ def binary_search(list, item)
       low = mid + 1
     end
   end
-  print "Invalid query - not in data set" # this won't print??
+  raise ArgumentError.new "Invalid query - not in data set"
 end
-
-my_list = [1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21]
-
-puts binary_search(my_list, -2)
