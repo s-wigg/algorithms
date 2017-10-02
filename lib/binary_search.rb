@@ -1,3 +1,5 @@
+# time complexity is O(log n) or logarithmic 
+
 def binary_search(list, item)
 
   low = 0

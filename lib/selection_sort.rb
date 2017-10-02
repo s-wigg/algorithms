@@ -1,3 +1,5 @@
+# time complexity is O(n^2) or quadratic
+
 def find_smallest(array)
   smallest = array[0]
   smallest_index = 0
